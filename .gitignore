@@ -1,0 +1,43 @@
+# Virtual environment
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Virtual environment and environment configuration
+.env
+
+# macOS specific
+.DS_Store
+
+# Editor/IDE settings (optional)
+.vscode/
+.idea/
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.cache
+
+# Jupyter Notebook checkpoints (if you're using Jupyter)
+.ipynb_checkpoints/
+
+# If you're using Docker, you may want to ignore Docker related files
+docker-compose.yml
+Dockerfile
+
+# Ignore Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
